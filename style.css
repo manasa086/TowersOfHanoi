@@ -1,0 +1,55 @@
+.main_div {
+    width: 1000px;
+    height: 1000px;
+    position: fixed;
+}
+
+.div {
+    width: 15px;
+    height: 250px;
+    background-color: black;
+    position: relative;
+    left: 600px;
+    top: 100px;
+}
+
+.div1 {
+    width: 15px;
+    height: 250px;
+    background-color: black;
+    position: relative;
+    left: 720px;
+    top: -150px;
+}
+
+.div2 {
+    width: 15px;
+    height: 250px;
+    background-color: black;
+    position: relative;
+    left: 835px;
+    top: -399px;
+}
+
+.hor_bar {
+    width: 350px;
+    height: 5px;
+    background-color: black;
+    position: relative;
+    top: -400px;
+    left: 555px;
+}
+
+.button {
+    display: inline-block;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 50px;
+    height: 40px;
+    color: white;
+    position: relative;
+    top: 350px;
+    left: 582px;
+    z-index: 1;
+}

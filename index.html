@@ -5,10 +5,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel=stylesheet href=style.css>
 </head>
 
 <body>
-
+    <!-- <div id=100>
+        <button class=button onclick=myFunc(100)>1</button></div> -->
+    <table class="table front borderless no_padding posi">
+        <tr>
+            <th onclick="myFunc(this.id,this.value)" id="100">
+                <button class=button>1</button>
+            </th>
+            <th onclick="myFunc(this.id,this.value)" id="101">
+                <img src="dummy.png" class="img-fluid">
+            </th>
+            <th onclick="myFunc(this.id,this.value)" id="102">
+                <img src="dummy.png" class="img-fluid">
+            </th>
+        </tr>
+        <tr>
+            <th onclick="myFunc(this.id,this.value)" id="110">
+                <button class=button>2</button>
+            </th>
+            <th onclick="myFunc(this.id,this.value)" id="111">
+                <img src="dummy.png" class="img-fluid">
+            </th>
+            <th onclick="myFunc(this.id,this.value)" id="112">
+                <img src="dummy.png" class="img-fluid">
+            </th>
+        </tr>
+        <tr>
+            <th onclick="myFunc(this.id,this.value)" id="120">
+                <button class=button>1</button>
+            </th>
+            <th onclick="myFunc(this.id,this.value)" id="121">
+                <img src="dummy.png" class="img-fluid">
+            </th>
+            <th onclick="myFunc(this.id,this.value)" id="122">
+                <img src="dummy.png" class="img-fluid">
+            </th>
+        </tr>
+    </table>
+    <script src="index.js"></script>
 </body>
 
 </html>
