@@ -49,7 +49,35 @@
     height: 40px;
     color: white;
     position: relative;
-    top: 350px;
-    left: 582px;
+    top: -240px;
+    left: 115px;
     z-index: 1;
+}
+
+.img2 {
+    width: 130px;
+}
+
+.table {
+    position: relative;
+    top: -260px;
+    left: 18px;
+}
+
+.table1 {
+    position: relative;
+    top: 0px;
+    left: 55px;
+}
+
+.table2 {
+    position: relative;
+    top: 0px;
+    left: 120px;
+}
+
+.table3 {
+    position: relative;
+    top: 0px;
+    left: 4px;
 }
