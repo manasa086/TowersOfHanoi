@@ -1,6 +1,14 @@
 let main_division = document.createElement('div');
 main_division.setAttribute('class', 'main_division');
 document.body.appendChild(main_division);
+let h1 = document.createElement('p');
+h1.innerHTML = "tower of hanoi";
+h1.setAttribute('class', 'h1');
+main_division.appendChild(h1);
+let para1 = document.createElement('p');
+para1.innerHTML = "select one option:";
+para1.setAttribute('class', 'para1');
+main_division.appendChild(para1);
 let image = document.createElement('img');
 image.setAttribute('src', 'back.png');
 image.setAttribute('class', 'back1');
