@@ -400,7 +400,7 @@
     }
     #timer {
         position: absolute;
-        top: 20px;
+        top: 520px;
         left: 700px;
         font-size: 40px;
         color: white;
@@ -420,7 +420,7 @@
         width: 500px;
         font-size: 30px;
         left: 600px;
-        top: 200px;
+        top: 500px;
         z-index: 1;
         font-style: italic;
     }
@@ -542,8 +542,9 @@
         border-radius: 15px;
     }
     #timeleft {
+        width: 200px;
         position: absolute;
-        top: 20px;
+        top: 520px;
         left: 520px;
         font-size: 40px;
         color: white;
@@ -569,13 +570,13 @@
     }
     .table_med {
         position: relative;
-        top: -325px;
-        left: 270px;
+        top: -425px;
+        left: 70px;
     }
     .table_hard {
         position: relative;
-        top: -385px;
-        left: 270px;
+        top: -480px;
+        left: 70px;
     }
     .table1 {
         position: relative;
