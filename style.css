@@ -401,7 +401,7 @@
     #timer {
         position: absolute;
         top: 520px;
-        left: 700px;
+        left: 730px;
         font-size: 40px;
         color: white;
     }
@@ -575,7 +575,7 @@
     }
     .table_hard {
         position: relative;
-        top: -480px;
+        top: -485px;
         left: 70px;
     }
     .table1 {
